@@ -1,0 +1,1 @@
+I will be creating a landing page as my first project
