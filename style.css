@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font: Roboto;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -15,26 +15,103 @@ ul{
     display: flex;
     gap: 8px;
     align-items: center;
+    flex-shrink: 0;
 }
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px
+}
+
 
 .header{
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding-left:  200px;
+    padding-right:  200px;
+    padding-bottom: 16px;
     align-items: center;
+    gap: 32px;
     flex-shrink: 0;
 }
 
 .logo {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
+    flex-shrink: 0;
+    display: flex;
 }
 
 .navigation {
     font-size: smaller;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.IntroSection{   
+    background-color: #1f2937;
+    padding-left:  200px;
+    padding-right:  200px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+
+.IntroContent{
+    background-color: #1f2937;
+    width: 450px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.IntroImage{
+    background-color: #e5e7eb;
+    width: 450px;
+    display: flex;
+    justify-content: right;
+    color: white;
+    background-color:  #1f2937;
+    flex-shrink: 0;
+
 }
 
 .footer{
