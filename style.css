@@ -5,6 +5,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh
 }
 
 ul{
@@ -18,12 +20,12 @@ ul{
 .header{
     background-color: #1f2937;
     color: white;
-    padding: 10px 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
     padding: 32px;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -33,4 +35,13 @@ ul{
 
 .navigation {
     font-size: smaller;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    flex-shrink: 0;
+    padding: 16px;
+    text-align: center;
+    align-items: center;
 }
