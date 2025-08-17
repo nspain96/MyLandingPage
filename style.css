@@ -51,8 +51,8 @@ button{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding-left:  200px;
-    padding-right:  200px;
+    padding-left:  150px;
+    padding-right:  150px;
     padding-bottom: 16px;
     align-items: center;
     gap: 32px;
@@ -84,8 +84,8 @@ button{
 
 .IntroSection{   
     background-color: #1f2937;
-    padding-left:  200px;
-    padding-right:  200px;
+    padding-left:  150px;
+    padding-right:  150px;
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
