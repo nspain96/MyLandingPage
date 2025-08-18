@@ -89,7 +89,6 @@ button{
     padding-bottom: 64px;
     display: flex;
     justify-content: space-between;
-    flex-shrink: 0;
 
 }
 
@@ -99,8 +98,7 @@ button{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    flex-shrink: 0;
+    gap: 8px; 
 }
 
 .IntroImage{
@@ -110,7 +108,6 @@ button{
     justify-content: right;
     color: white;
     background-color:  #1f2937;
-    flex-shrink: 0;
 
 }
 
